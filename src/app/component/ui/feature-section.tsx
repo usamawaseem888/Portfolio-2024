@@ -39,7 +39,7 @@ export const GlobeOnly = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen ">
       <canvas
         ref={canvasRef}
         style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}

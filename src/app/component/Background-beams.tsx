@@ -15,12 +15,12 @@ export function BackgroundBeamsDemo() {
       <div className="max-w-2xl mx-auto p-2">
 
         <div className="my-5 items-center justify-center">
-          <h1 className="relative z-10 text-7xl md:text-7xl bg-clip-text text-transparenttext-neutral-500  text-left ">
+          <h1 className="relative z-10 text-5xl md:text-7xl bg-clip-text text-transparenttext-neutral-500  text-left ">
             Usama Waseem
           </h1>
         </div>
         <div className=" w-full mb-10">
-          <h2 className="absolute z-10 text-6xl md:text-[4rem] font-bold text-left">
+          <h2 className="absolute z-10 text-4xl md:text-[4rem] font-bold text-left">
             <FlipWords words={["Software Engineer", "Android Developer", "Game Developer"]} /></h2>
         </div><br /><br /><br />
         <div className=" text-neutral-500  max-w-lg mx-auto mt-20 text-center relative z-10 " >

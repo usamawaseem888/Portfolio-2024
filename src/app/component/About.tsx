@@ -26,7 +26,7 @@ export function About() {
           height={720}
           width={1400}
           mx-auto rounded-2xl object-cover object-left-top h-auto max-w-full
-          className="mx-auto rounded-2xl object-cover h-full object-left-top w-full"
+          className="mx-auto rounded-2xl object-cover h-full object-left-top "
           draggable={false}
         />
       </ContainerScroll>
