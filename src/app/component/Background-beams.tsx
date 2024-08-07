@@ -15,12 +15,12 @@ export function BackgroundBeamsDemo() {
       <div className="max-w-2xl mx-auto p-2">
 
         <div className="my-5 items-center justify-center">
-          <h1 className="relative z-10 text-5xl md:text-7xl bg-clip-text text-transparenttext-neutral-500  text-left ">
+          <h1 className="relative z-10 text-5xl md:text-7xl bg-clip-text text-transparenttext-neutral-500  text-left text-neutral-100">
             Usama Waseem
           </h1>
         </div>
         <div className=" w-full mb-10">
-          <h2 className="absolute z-10 text-4xl md:text-[4rem] font-bold text-left">
+          <h2 className="absolute z-10 text-4xl md:text-[4rem] font-bold text-left ">
             <FlipWords words={["Software Engineer", "Android Developer", "Game Developer"]} /></h2>
         </div><br /><br /><br />
         <div className=" text-neutral-500  max-w-lg mx-auto mt-20 text-center relative z-10 " >
@@ -33,13 +33,13 @@ export function BackgroundBeamsDemo() {
 
         </div>
         <div className="mt-10 flex justify-center items-center gap-10">
-        <a href="https://play.unity.com/en/user/1bcac88f-91a5-4c21-bd77-c01faa1b4135" target="_blank" rel="noopener noreferrer" style={{ zIndex: 20 }}>
+        <a href="https://play.unity.com/en/user/1bcac88f-91a5-4c21-bd77-c01faa1b4135" target="_blank" rel="noopener noreferrer" style={{ zIndex: 20,color: "#ffffff" }}>
             <FontAwesomeIcon icon={faUnity} size="3x" />
           </a>
           <a href="https://linkedin.com/in/usama-waseem-bbb27a279/" target="_blank" rel="noopener noreferrer" style={{ zIndex: 20 }}>
             <FontAwesomeIcon icon={faLinkedin} size="3x" style={{ color: "#668fd6" }} />
           </a>
-          <a href="https://github.com/usamawaseem888" target="_blank" rel="noopener noreferrer" style={{ zIndex: 20 }}>
+          <a href="https://github.com/usamawaseem888" target="_blank" rel="noopener noreferrer" style={{ zIndex: 20,color: "#ffffff" }}>
             <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
 
